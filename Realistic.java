@@ -73,7 +73,7 @@ public class Realistic {
             addtoArr[i] = arr[i];//copies int from arr to the new array addtoArr
         } // end for loop
 
-        addtoArr[addtoArr.length - 1] = value; // adds value(contains new number) to the end of addtoArr
+        addtoArr[addtoArr.length - 1] = value; // adds value to the end of addtoArr
         arr = addtoArr; // replaces arr with the addtoArr array with the new #
     } //method add
 
