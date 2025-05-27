@@ -1,3 +1,11 @@
+/*
+ * Lines 40-45 Explanation
+ * 
+ * For the code in lines in 40-45, takes the smallest number and removes it from the array.
+ * The variable i in the first loop goes through arr and tranfers the numbers before the smallest number into temporary. 
+ * The second loop then itterates through it again and gets the numbers after the smallest number.
+ * We use temporary[i-1] to shift left so we can get the numbers after the smallest.
+ */
 import java.util.Arrays; // from printing array
 
 /**
