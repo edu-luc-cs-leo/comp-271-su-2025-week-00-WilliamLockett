@@ -61,6 +61,22 @@ public class Realistic {
         return result; // smallest element
     } // method getSmallest
 
+    public static void add(int value){
+        int[] addtoArr = new int [arr.length + 1];
+         /*
+            * creates new array
+            * copies the size of the arr
+            * adds a space to the array
+        */
+        
+        for (int i = 0; i < arr.length; i++){  // start for loop
+            addtoArr[i] = arr[i];//copies int from arr to the new array addtoArr
+        } // end for loop
+
+        addtoArr[addtoArr.length - 1] = value; // adds value(contains new number) to the end of addtoArr
+        arr = addtoArr; // replaces arr with the addtoArr array with the new #
+    } //method add
+
     /** Driver/simple test code */
     public static void main(String[] args) {
         System.out.printf("\n\nArray before removal of smallest element: %s",
